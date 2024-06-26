@@ -7,6 +7,7 @@ day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sund
 mood = ["Happy", "Sad", "Mad", "Joyful", "Energetic", "Calm", "Blissful"]
 
 random.shuffle(day)
+random.shuffle(mood)
 
 for i in range(len(day)):
     for i in range(len(times)):
